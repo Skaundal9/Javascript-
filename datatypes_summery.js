@@ -7,7 +7,7 @@ let userEmail;
 //Symbol
 const id=Symbol('123')
 const anotherId=Symbol('123')
-console.log(id===anotherId);
+// console.log(id===anotherId);
 
 //BigInt
 //const bigNumber=22553625656n
@@ -26,6 +26,25 @@ let myObj={
 
 //function
 const myFunction = function(){
-    console.log("Hello Shubham")
+    // console.log("Hello Shubham")
 }
-console.log(typeof myFunction)
+// console.log(typeof myFunction)
+
+// ++++++++++++++++++++++++++++++
+
+// Stack memory(Primitive), Heap Memory(Non-Primitive)
+
+let myName="Shubham"
+let anotherName = myName
+anotherName="Sachin"
+// console.log(myName)
+// console.log(anotherName)
+
+let userOne={
+    email: "Shubham@123.com",
+    upi: "shubham@ybl"
+}
+let userTwo = userOne
+userTwo.email="Sachin@123.com"
+console.log(userOne.email)
+console.log(userTwo.email)
