@@ -42,4 +42,21 @@ console.log(tinderUser);
 // console.log(Object.values(tinderUser)); // return all the values in an array
 // console.log(Object.entries(tinderUser)); // return all key value pair in the form of seperate array for each entry
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+// course.courseInstructor
+const {courseInstructor: instructor}=course
+console.log(instructor)
+
+{
+    "name":"Shubham",
+    "roll_number":"210101595"
+}
+
+
+
